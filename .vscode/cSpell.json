@@ -1,6 +1,13 @@
 {
     "version": "0.2",
     "language": "en",
+    "ignorePaths": [
+        ".devcontainer/devcontainer.json",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        "tests/files/*.sh",
+        "uv.lock"
+    ],
     "words": [
         "yamllint",
         "markdownlint",

@@ -1,4 +1,7 @@
+# spell-checker: disable
+# yamllint disable rule:line-length
 ---
+version: "1.0"
 fileignoreconfig:
 - filename: .github/workflows/release.yml
   checksum: 524963b3a94ee099c95cdcc1f6846c7a9a00928103074f422c3a1d62ee970cc1
@@ -16,3 +19,7 @@ fileignoreconfig:
   checksum: 301915f33024b690fa1dc66a49ca2c7904dc5bdb2258bbde7c204f1a3a393ee9
 - filename: failover-3nic-byol-multi-az/runtime-init-config-bigip2.yaml
   checksum: 8c10b5152a551a775fcee7732104df1d862239e907eb39554c0bb3cf3edc7b8d
+- filename: uv.lock
+  checksum: d3cc213f479bd11aceb6266c8aa199df7661f7fe6244a9bd84c1fdf76a9c56d0
+  ignore_detectors:
+    - filecontent

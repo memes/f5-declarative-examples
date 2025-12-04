@@ -2,7 +2,15 @@
 .envrc
 .direnv
 .tool-versions
+.env
 
 # Ruby/kitchen ignores
 .bundle
 Gemfile.lock
+
+# Ignore local venv and ephemeral python resources
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.coverage*
